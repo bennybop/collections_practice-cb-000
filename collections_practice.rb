@@ -1,4 +1,7 @@
 def sort_array_asc(array)
   return array.sort
-end 
-  
+end
+
+def sort_array_desc(array)
+  return array.sort{|a,b| b <=> a}
+end
